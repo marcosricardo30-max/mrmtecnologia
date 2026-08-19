@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRM Tecnologia - Infraestrutura de TI e Redes</title>
+    <style>
+        /* Configurações Básicas */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+        body { background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        
+        /* Cabeçalho (Hero) */
+        .hero {
+            background-color: #1a253c; /* Azul escuro corporativo */
+            color: #ffffff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 { font-size: 2.5em; margin-bottom: 15px; }
+        .hero p { font-size: 1.2em; margin-bottom: 30px; max-width: 800px; margin-left: auto; margin-right: auto; }
+        
+        /* Botão de Ação */
+        .btn {
+            display: inline-block;
+            background-color: #008CBA; /* Azul mais claro para destaque */
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn:hover { background-color: #006a8e; }
+
+        /* Seção de Serviços */
+        .servicos { padding: 60px 20px; max-width: 1200px; margin: 0 auto; }
+        .servicos h2 { text-align: center; margin-bottom: 40px; font-size: 2em; color: #1a253c; }
+        
+        /* Grid dos Serviços */
+        .grid-servicos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .card-servico {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            border-top: 5px solid #008CBA;
+        }
+        .card-servico h3 { color: #1a253c; margin-bottom: 15px; }
+        
+        /* Seção de Contato */
+        .contato {
+            background-color: #1a253c;
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+            margin-top: 40px;
+        }
+        .contato h2 { margin-bottom: 20px; font-size: 2em; }
+        .contato p { margin-bottom: 30px; }
+        
+        /* Botão WhatsApp */
+        .btn-whats {
+            background-color: #25D366; /* Verde do WhatsApp */
+            color: #fff;
+        }
+        .btn-whats:hover { background-color: #1da851; }
+
+        /* Rodapé */
+        footer { text-align: center; padding: 20px; background-color: #111; color: #888; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Cabeçalho (Hero) -->
+    <header class="hero">
+        <h1>Infraestrutura de TI Confiável para o seu Negócio não Parar</h1>
+        <p>A MRM Tecnologia oferece soluções completas em Redes, Servidores, Telefonia IP e Segurança (CFTV). Garanta a produtividade da sua equipe e a tranquilidade do seu patrimônio.</p>
+        <a href="#contato" class="btn">Quero um Diagnóstico Gratuito</a>
+    </header>
+
+    <!-- 2. Seção de Serviços -->
+    <section class="servicos" id="servicos">
+        <h2>Nossas Soluções</h2>
+        <div class="grid-servicos">
+            
+            <div class="card-servico">
+                <h3>🚀 Servidores & Redes</h3>
+                <p>Mantenha os dados da sua empresa seguros. Configuramos servidores locais e em nuvem, estruturamos redes de internet cabeadas e Wi-Fi corporativas sem quedas.</p>
+            </div>
+
+            <div class="card-servico">
+                <h3>📹 CFTV e Segurança</h3>
+                <p>Proteja o que é mais importante. Instalamos sistemas de câmeras de monitoramento de alta definição, com acesso remoto via celular, 24 horas por dia.</p>
+            </div>
+
+            <div class="card-servico">
+                <h3>📞 Telefonia IP (VoIP)</h3>
+                <p>Modernize a comunicação e reduza custos. Implementamos sistemas de telefonia pela internet com ramais ilimitados e integração com celular.</p>
+            </div>
+
+            <div class="card-servico">
+                <h3>🛠️ Manutenção e Suporte</h3>
+                <p>Computadores lentos geram prejuízo. Oferecemos manutenção preventiva, corretiva e suporte técnico ágil para resolver os problemas do dia a dia.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- 3. Chamada Final para Ação (Contato) -->
+    <section class="contato" id="contato">
+        <h2>Pronto para deixar a tecnologia nas mãos de especialistas?</h2>
+        <p>Entre em contato agora mesmo para uma conversa sem compromisso. Fazemos uma avaliação da sua infraestrutura atual.</p>
+        <!-- Lembre de trocar o número abaixo pelo seu WhatsApp (55 + DDD + Número) -->
+        <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20de%20TI" class="btn btn-whats" target="_blank">Falar no WhatsApp Agora</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 MRM Tecnologia - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
